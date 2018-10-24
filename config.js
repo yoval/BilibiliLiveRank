@@ -2,10 +2,11 @@
   // 数据源的编码方式。
   // 默认为GBK,按需可修改为UTF-8等。
   // 如果输入的数据是用Excel编写的csv文件，那么大概率应该使用GBK。
-  encoding: "GBK",
+  //encoding: "GBK",
+  encoding: "UTF-8",
 
   // 每个时间节点最多显示的条目数。
-  max_number: 20,
+  max_number: 30,
 
   // 控制是否显示顶部附加信息文字。
   showMessage: true,
@@ -87,9 +88,10 @@
   big_value: false,
 
   // 如果要使用半对数坐标，则开启此项
-  use_semilogarithmic_coordinate: false,
+  use_semilogarithmic_coordinate: true,
 
   // barinfo太长？也许可以试试这个
+  //long: true,
   long: false,
 
 };
